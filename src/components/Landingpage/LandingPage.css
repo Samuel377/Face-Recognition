@@ -1,0 +1,31 @@
+.cover{
+	margin-top: -3.5em;
+	height: 100vh;
+	background-color: white;  
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	/*background: linear-gradient(to right,#fff, #ff3);*/
+	background-color: #fff;
+
+}
+.bgcover{
+	/*background: linear-gradient(to right,#fff, #ff3);*/
+	background-color: #fff;
+}
+
+.bg{
+	
+	background-color: #0f0c29;   
+	background: linear-gradient(to right,#ff3 ,#302b63, #fff);
+}
+
+.position{
+	display: inline-block;
+	margin-right: auto;
+	width:20%;
+	margin-top: 8px;
+	color: #ff3;
+	font-weight: 900;
+}
+/*#0f0c29 #24243e*/
