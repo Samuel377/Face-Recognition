@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactTypingEffect from 'react-typing-effect';
 import './LandingPage.css';
 
 const LandingPage = ({onRouteChange}) => {
@@ -12,16 +11,6 @@ const LandingPage = ({onRouteChange}) => {
 			</nav>
 			<div className=" cover center">
 				<div className="container w-75">
-					<ReactTypingEffect 
-						className="f1 fw6" 
-						text="Hello there! : )"
-						speed="200"
-						eraseDelay= "90000000"/>
-					<ReactTypingEffect 
-						className="f3 fw4 pa3 "
-						text="Enter any image url to detect the face in the image"
-						speed="200"
-						eraseDelay= "9000000"/>
 					<p 
 						className="f4 link grow bw1 ph5 pv1  dib br4 pointer bg" 
 						onClick={()=> onRouteChange('register')}>
